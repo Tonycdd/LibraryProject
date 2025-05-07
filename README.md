@@ -48,69 +48,65 @@ This is my final project for ''Object-oriented programming'' course
 Примерен формат - тук нямаме изискване, съобразено е някакво средно решение - редът е без голямо значение, с приоритет са нещата интересуващи четящия файла да са по-нагоре
 
 ### КНИГИ
-{
-  "type": "Book",
-  "uniqueID": "B1001",
-  "title": "Clean Code",
-  "author": "Robert C. Martin",
-  "publisher": "Prentice Hall",
-  "genre": "Programming",
-  "description": "A handbook of agile software craftsmanship",
-  "publicationYear": 2008,
-  "keywords": ["programming", "software", "agile"],
-  "rating": 4.7,
-  "ISBN": "9780132350884",
-  "availableCopies": 3
-}
+
+    "type": "Book",
+    "uniqueID": "B1001",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "publisher": "Prentice Hall",
+    "genre": "Programming",
+    "description": "A handbook of agile software craftsmanship",
+    "publicationYear": 2008,
+    "keywords": ["programming", "software", "agile"],
+    "rating": 4.7,
+    "ISBN": "9780132350884",
+    "availableCopies": 3
+
 
 ### ПЕРИОДИЧНО ИЗДАНИЕ 
 
-{
-  "type": "Book",
-  "uniqueID": "B1001",
-  "title": "Clean Code",
-  "author": "Robert C. Martin",
-  "publisher": "Prentice Hall",
-  "genre": "Programming",
-  "description": "A handbook of agile software craftsmanship",
-  "publicationYear": 2008,
-  "keywords": ["programming", "software", "agile"],
-  "rating": 4.7,
-  "ISBN": "9780132350884",
-  "availableCopies": 3
-}
+
+    "type": "Book",
+    "uniqueID": "B1001",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "publisher": "Prentice Hall",
+    "genre": "Programming",
+    "description": "A handbook of agile software craftsmanship",
+    "publicationYear": 2008,
+    "keywords": ["programming", "software", "agile"],
+    "rating": 4.7,
+    "ISBN": "9780132350884",
+    "availableCopies": 3
 
 ### ЧИТАТЕЛИ
 
-{
-  "type": "Reader",
-  "username": "ivan_petrov",
-  "hashedPassword": "5f4dcc3b5aa765d61d8327deb882cf99",
-  "registrationDate": "2023-03-15",
-  "lastAccessDate": "2023-05-20",
-  "borrowHistory": [
-    {
-      "itemID": "B1001",
-      "borrowDate": "2023-04-10",
-      "returnDate": "2023-04-30",
-      "isReturned": true
-    },
-    {
-      "itemID": "N2001",
-      "borrowDate": "2023-05-15",
-      "returnDate": "2023-06-15",
-      "isReturned": false
-    }
-  ]
-}
+
+    "type": "Reader",
+    "username": "ivan_petrov",
+    "hashedPassword": "5f4dcc3b5aa765d61d8327deb882cf99",
+    "registrationDate": "2023-03-15",
+    "lastAccessDate": "2023-05-20",
+    "borrowHistory": [
+      {
+        "itemID": "B1001",
+        "borrowDate": "2023-04-10",
+        "returnDate": "2023-04-30",
+        "isReturned": true
+      },
+      {
+        "itemID": "N2001",
+        "borrowDate": "2023-05-15",
+        "returnDate": "2023-06-15",
+        "isReturned": false
+      }
+    ]
 
 ### АДМИНИСТРАТОР
 
-{
-  "type": "Admin",
-  "username": "admin",
-  "hashedPassword": "21232f297a57a5a743894a0e4a801fc3",
-  "registrationDate": "2023-01-01",
-  "lastAccessDate": "2023-05-20",
-  "emailAddress": "admin@library.org"
-}
+    "type": "Admin",
+    "username": "admin",
+    "hashedPassword": "21232f297a57a5a743894a0e4a801fc3",
+    "registrationDate": "2023-01-01",
+    "lastAccessDate": "2023-05-20",
+    "emailAddress": "admin@library.org"
